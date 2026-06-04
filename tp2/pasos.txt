@@ -3,35 +3,35 @@
 #Hacer la evaluacion de tratamientos: 
 1ero) El formato de codigo 'X##.##'...En donde X es
  la letra que indica el grupo general de problemas medicos
- los numerales despues del punto nos indican el porcentaje.
+  los numerales despues del punto nos indican el porcentaje.
 
- #Para calcular el monto se toma la letra principal y los numeros despues del punto
- se toma un monto base + un recargo dependiendo la letra + el porcentaje que indica el numero despues del punto
-
-
-  
-
- 1ero) Leer el txt
- 2do) Recorrer el txt por linea
- 3ro) Recorrer el txt por caracter
-
-#Habria que hacer una funcion para evaluar esto? Esta seria la cabecera. 
-#Dentro de los bloques de caracteres usar un contador.
-#el 0 para el numeral
-#el 1 es un espacio
-
-#del 2 al 7 es un monto de la A - L - GUARDAR EN VARIABLES DE TOTALES
-#del 8 al 13 es un monto de la M - a la Z sin contar u - GUARDAR EN VARIABLES DE TOTALES
-#del 14 al 19 es un monto para la letra u - GUARDAR EN VARIABLES DE TOTALES
+   #Para calcular el monto se toma la letra principal y los numeros despues del punto
+    se toma un monto base + un recargo dependiendo la letra + el porcentaje que indica el numero despues del punto
 
 
-#Para el cuerpo, hay que identificarlo 
-#del 0 al 24 es el nombre del paciente
-#del 25 al 30 el codigo ICD10 #Aca llamar a una funcion para evaluar las letras
-#del 31 al 38 el monto base o minimo para pagar
-#caracter 39: una x que le suma un 5% al monto final 
+      
+
+       1ero) Leer el txt
+        2do) Recorrer el txt por linea
+         3ro) Recorrer el txt por caracter
+
+         #Habria que hacer una funcion para evaluar esto? Esta seria la cabecera. 
+         #Dentro de los bloques de caracteres usar un contador.
+         #el 0 para el numeral
+         #el 1 es un espacio
+
+         #del 2 al 7 es un monto de la A - L - GUARDAR EN VARIABLES DE TOTALES
+         #del 8 al 13 es un monto de la M - a la Z sin contar u - GUARDAR EN VARIABLES DE TOTALES
+         #del 14 al 19 es un monto para la letra u - GUARDAR EN VARIABLES DE TOTALES
 
 
+         #Para el cuerpo (los datos de cada uno de los pacientes), hay que identificarlos
+         #del 0 al 24 es el nombre del paciente
+         #del 25 al 30 el codigo ICD10 #Aca llamar a una funcion para evaluar las letras
+         #del 31 al 38 el monto base o minimo para pagar
+         #caracter 39: una x que le suma un 5% al monto final 
+
+         
 
 
 
